@@ -16,8 +16,6 @@ console.log("websocket server created")
 
 wss.on("connection", function(ws) {
 
-ws.send(JSON.stringify(new Date()), function() {  })
-
 
   console.log("websocket connection open")
 
